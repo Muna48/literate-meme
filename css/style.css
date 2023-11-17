@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -9,7 +11,79 @@ body {
   line-height: 1.5;
 }
 
-h1,
+/*header/nav bar */
+
+.Header {
+  background-color:darkslategray;
+  padding-top: 0px;
+  margin-right: 20px;
+  float: left;
+  color: #ffffff;
+  font-size: 48px;
+
+}
+
+
+.Nav-Bar {
+  background-color:darkslategray;
+  list-style-type: none;
+  text-align: right;
+  Padding: 10px;
+  Margin: auto;
+
+
+}
+
+.Nav-Bar li {
+
+  Display: inline-block;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
+  
+.hero-banner {
+
+ 
+  background-image: url("../images/02-hero-bg.jpg");
+  height: 400px; 
+  width: 1365px;
+  Display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+
+.subtitle {
+ 
+
+}
+
+.page-wrapper {
+
+}
+
+
+.work {
+  margin: 10px;
+  padding: 20px;
+}
+.contact {
+Margin: 10px;
+text-align: left;
+background-color:darkslategrey;
+color:black
+}
+
+.contact li {
+
+display: inline-block;
+margin: 10px;
+padding: 20px;
+}
+
+
 h2,
 h3,
 h4,
