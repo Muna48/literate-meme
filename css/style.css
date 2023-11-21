@@ -4,6 +4,11 @@
   margin: 0;
 }
 
+:root {
+
+  --bg-clr-1: #735469;
+
+}
 body {
   margin: 0;
   padding: 0;
@@ -14,18 +19,19 @@ body {
 /*header/nav bar */
 
 .Header {
-  background-color:darkslategray;
-  padding-top: 0px;
+  background-color: var(--bg-clr-1);
+  padding-top: 10px;
   margin-right: 20px;
+  margin-left: 10px;
   float: left;
   color: #ffffff;
-  font-size: 48px;
+  font-size: 36px;
 
 }
 
 
 .Nav-Bar {
-  background-color:darkslategray;
+  background-color: var(--bg-clr-1);
   list-style-type: none;
   text-align: right;
   Padding: 10px;
@@ -45,8 +51,7 @@ body {
   
 .hero-banner {
 
- 
-  background-image: url("../images/02-hero-bg.jpg");
+ background-color:#dbc5d5 ;
   height: 400px; 
   width: 1365px;
   Display: flex;
